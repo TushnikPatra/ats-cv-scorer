@@ -21,7 +21,7 @@ export default function Home() {
     try {
       setLoading(true);
 
-      const response = await fetch("https://ats-backend-wszq.onrender.com", {
+      const response = await fetch("https://ats-backend-bk9n.onrender.com", {
         method: "POST",
         body: formData,
       });
